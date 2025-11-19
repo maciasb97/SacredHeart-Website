@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Saints Shrine - SHBCC</title>
+  <link rel="stylesheet" href="style.css">
+
+ 
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+<!--Links in header from js file-->
+    <div id="header"></div>
+
+    <!--Shrine Header with Logo Display-->
+    <div class="shrine-hero">
+        <div class="shrine-hero-text">
+            <img src="images/shrine/All-Saints-Shrine-Logo.png" alt="">
+        </div>
+    </div>
+   
+    <section class="shrine">
+        <div class="tab">
+            <button class="tablinks" data-city="history" id="defaultOpen">Brief History</button>
+            <button class="tablinks" data-city="relics">List of Relics</button>
+            <button class="tablinks" data-city="tours">Tours & Pilgrimages</button>
+            <button class="tablinks" data-city="hours">Operating Hours</button>
+            <button class="tablinks" data-city="contact">Contact Info</button>
+        </div>
+
+        <div id="history" class="tabcontent">
+            <div class="tab-container">
+                <div class="tab-items">
+                    <img src="images/shrine/shrine-logo.jpeg" alt="">
+                </div>
+                <div class="tab-items">
+                    <h1>Welcome to All Saints!</h1>
+                    <p>The Shrine of All Saints at Sacred Heart Byzantine Catholic Church was the vision of Father Joseph Marquis, 
+                    pastor-emeritus of Sacred Heart Byzantine Catholic ChuchThe Saint Nicholas Institute. Awed by the piety of 
+                    the holy men and women who are the living stones which built the Church and blessed with miraculous acquisition
+                    of relics of many saints, Fr Joseph determined to establish the Shrine of All Saints so these touchstones to 
+                    the sacred history of the Church could be shared with as many people as possible.</p>
+                    <p>The result has been a unique place of pilgrimage and learning; a sacred refuge from the mundane world where the
+                    history of the Church is brought to life and the bones of those who have gone before us to their eternal reward 
+                    speak to us and pray with us.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="relics" class="tabcontent">
+            <div class="tab-container">
+                <div class="tab-items">
+                    <img src="images/shrine/shrine-sideview.JPG" alt="">
+                </div>
+                <div class="tab-items">
+                    <h1>Relics at All Saints</h1>
+                    <p>The following is a complete listing of all 326 individual relics of Saints & the Blessed 
+                        (last updated August 28th, 2024) in the All Saints Shrine at Sacred Heart Byzantine Catholic 
+                        Church.</p>
+                    <p>The relics are presented in two categories "Christ & Mary" & "Saints & Blessed". Click on either to view the current list of relics available</p>
+                    <p>Note: Images of individual relics coming soon...</p>
+                </div>
+            </div>
+            
+                <div class="sec">
+                    <button class="seclinks" data-city="christ" id="defaultOpen2">Christ & Mary
+                    </button>
+                    <button class="seclinks" data-city="saints">Saints & Blessed</button>
+                </div>
+
+                <div id="christ" class="seccontent">
+                    <div class="tab-container">
+                        <div class="tab-items">
+                            <h1>List of individual relics of Christ & Mary</h1>
+                            <p>Below you will find the list of relics of Christ & Mary available at the shrine, click on a tab to view that category.</p>
+                        </div>
+                    </div>
+
+                     <!--Saints A through C-->
+                    <button class="accordion">Christ</button>
+                    <div class="panel">
+                        <div class="tab-container">
+                            <div class="tab-items">
+                                <div id="group-christ"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Saints A through C-->
+                    <button class="accordion">Mary</button>
+                    <div class="panel">
+                        <div class="tab-container">
+                            <div class="tab-items">
+                                <div id="group-mary"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="saints" class="seccontent">
+                    <div class="tab-container">
+                        <div class="tab-items">
+                            <h1>List of individual relics of the Saints & Blessed</h1>
+                            <p>Below you will find the list of relics of the saints & blessed individuals available at the shine, click on a tab to view that category, sections are in alphabetical order.</p>
+                        </div>
+                    </div>
+                    
+                    <!--Saints A through C-->
+                    <button class="accordion">A – C</button>
+                    <div class="panel">
+                        <div class="tab-container">
+                            <div class="tab-items">
+                                <div id="group-A-C"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Saints D through G-->
+                    <button class="accordion">D – G</button>
+                    <div class="panel">
+                        <div class="tab-container">
+                            <div class="tab-items">
+                                <div id="group-D-G"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Saints H through L-->
+                    <button class="accordion">H – L</button>
+                    <div class="panel">
+                        <div class="tab-container">
+                            <div class="tab-items">
+                                <div id="group-H-L"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--Saints M through P-->
+                    <button class="accordion">M – P</button>
+                    <div class="panel">
+                        <div class="tab-container">
+                            <div class="tab-items">
+                                <div id="group-M-P"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--Saints Q through Z-->
+                    <button class="accordion">Q – Z</button>
+                    <div class="panel">
+                        <div class="tab-container">
+                            <div class="tab-items">
+                                <div id="group-Q-Z"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    
+        <div id="tours" class="tabcontent">
+            <div class="tab-container">
+                <div class="tab-items">
+                    <img src="images/shrine/pilgrims.jpg" alt="">
+                </div>
+                <div class="tab-items">
+                    <h1>Planning A Visit?</h1>
+                    <p>The All Saints Shrine at Sacred Heart Byzantine Catholic Church welcomes pilgrims from all walks of life and faith 
+                    tradition - and most especially those who are seeking knowledge of holy men and women who have gone before us to their 
+                    eternal reward. Whether your wanting to make a private visit, schedule a tour/presentation, or need press access,
+                    we can make accomodations</p>
+                    <p>If interested in making a visit and want more info or to schedule a visit, please feel free to contact us! Note: Fr. 
+                    Joseph Marquis, pastor-emeritus of our parish and docent of the Shrines, is also available by arrangment for guided visits.</p> 
+                </div>
+            </div>
+        </div>
+
+        <div id="hours" class="tabcontent">
+            <div class="tab-container">
+                <div class="tab-items">
+                    <h1>Shrine Operating Hours</h1>
+                    <p>Wednesday: 1:00 PM to 4:00 PM</p>
+                    <p>Saturday: 10:00 AM to 12:00 PM</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="tabcontent">
+            <div class="tab-container">
+                <div class="tab-items">
+                    <h1>Mailing Address</h1>
+                    <p>All Saints Shrine at Sacred Heart Byzantine Catholic Church</p>
+                    <p>West Six Mile Road Livonia, MI 48152</p>
+                </div>
+            </div>
+            <div class="tab-container">
+                <div class="tab-items">
+                    <h1>Email & Phone</h1>
+                    <p>Shrine Manager: Fr. Joseph Marquis</p>
+                    <p>Phone: <a href="tel:3132824327">313-282-4327</a></p>
+                    <p>Email: <a href="mailto:FatherJosMarquis@currently.com">FatherJosMarquis@currently.com</a></p>
+                </div>
+            </div>
+        </div>
+    
+        
+    
+    </section>
+
+
+
+
+    <div id="footer"></div>
+
+    <script type="module" src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
