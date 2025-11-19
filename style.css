@@ -56,7 +56,7 @@ body{
 }
 section{
   min-height: 50vh;
-  outline: 2px solid rgb(245, 0, 245); /*for testing purposes, shows section borders*/
+  /*outline: 2px solid rgb(245, 0, 245); for testing purposes, shows section borders*/
 
   /* padding: 10rem ; adds padding for all sections*/
 }
