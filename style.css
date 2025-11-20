@@ -750,33 +750,6 @@ section{
   color: var(--text-color);
 }
 
-.accordion{
-  font-size: 25px;
-  font-family: 'DM Serif Display';
-  letter-spacing: 1px;
-  background-color: var(--box-header-color);
-  color: var(--text-color);
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  transition: 0.4s;
-}
-.active, .accordion:hover{
-  background-color:  var(--text-color);
-  color: var(--section1-color);
-}
-.panel{
-  background-color: var(--section1-color);
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-}
-.active, .panel{
-  overflow: auto;
-}
 
 /*-------------Horizontal/Vertical Tabs & Accordion Tabs-------------*/
 
