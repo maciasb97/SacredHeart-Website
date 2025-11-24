@@ -2,7 +2,7 @@ export function Header(){
     const headerHTML = 
     `<header class="header">
       <a href="index.html#home" class="logo">
-        <img src="images/main_logos/header.png" alt="">
+        <img src="/images/main_logos/header.png" alt="">
       </a>
       <i class = "bx bx-menu" id="menu-icon"></i>
 
