@@ -9,7 +9,7 @@ export function Footer(){
     </a>
     </div>
     <div class="footer-img">
-    <img src="/images/main_logos/head.png" alt="">
+    <img src="images/main_logos/head.png" alt="">
     </div>
     <div class="bottom-text">
         <p>© 2025 Sacred Heart Byzantine Catholic Church | All Rights Reserved.</p>
