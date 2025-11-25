@@ -496,7 +496,7 @@ section{
   padding: 2rem;
 }
 .shrine-hero, .about-hero{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/shrine/shrine-header.JPG");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/shrine/shrine-header.JPG");
   /* Set a specific height */
   height: 40rem;
   margin-top: 8.3rem;
@@ -507,7 +507,7 @@ section{
   position: relative;
 }
 .about-hero{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/about-imgs/about-header.JPG");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/about-imgs/about-header.JPG");
 }
 .shrine-hero-text, .about-hero-text{
   text-align: center;
