@@ -6,6 +6,7 @@ import { initSections } from "./sections.js";
 import { accordionTabs } from "./accord.js";
 import { bulletinReader } from "./bulletin-reader.js";
 import { renderSaintGroup } from "./saints-loader.js";
+import { flyerReader }  from "./flyer-reader.js";
 
 
 
@@ -33,6 +34,8 @@ document.addEventListener("DOMContentLoaded", async function() {
   //Runs bulletin-reader if page has "schedule" element
   if(document.getElementById("schedule")){
     bulletinReader();
+    flyerReader();
+  
   }
 
   //Runs the saints-loader if this page has "group-christ" saint section element
