@@ -408,8 +408,8 @@ section{
 /*---------------------Footer---------------------*/
 .footer{
   background-color: var(--section1-color);
-  padding-top: 10px;
-  padding-bottom: 50px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;;
 }
 .footer-img{
   display: flex;
@@ -441,7 +441,6 @@ section{
 }
 .footer .bottom-text{
   text-align: center;
-  margin-bottom: 2rem;
   padding: 2rem;
 }
 .footer .bottom-text p{
