@@ -409,7 +409,7 @@ section{
 .footer{
   background-color: var(--section1-color);
   padding-top: 1rem;
-  padding-bottom: 1rem;;
+  padding-bottom: 1rem;
 }
 .footer-img{
   display: flex;
