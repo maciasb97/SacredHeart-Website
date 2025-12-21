@@ -310,6 +310,9 @@ section{
   height: auto;
   border-radius: 100%;
 }
+.info-info-rev img{
+  width: 35vw;
+}
 .info-info h2{
   font-family: 'DM Serif Display';
   font-size: clamp(21px, 4vw, 32px);
