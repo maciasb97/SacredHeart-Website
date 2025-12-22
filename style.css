@@ -512,7 +512,7 @@ section{
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/about-imgs/about-header.JPG");
 }
 .hall-hero{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/about-imgs/hall-header.JPG");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hall-imgs/hall-header.JPG");
 }
 .shrine-hero-text, .about-hero-text, .hall-hero-text{
   text-align: center;
