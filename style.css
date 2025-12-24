@@ -308,10 +308,12 @@ section{
 .info-info img, .info-info-rev img{
   width: 25vw;
   height: auto;
+}
+.info-info img{
   border-radius: 100%;
 }
 .info-info-rev img{
-  width: 35vw;
+  width: 30vw;
 }
 .info-info h2{
   font-family: 'DM Serif Display';
@@ -522,7 +524,7 @@ section{
   transform: translate(-50%, -50%);
 }
 .shrine-hero-text img{
-  width: 500px;
+  width: 420px;
   height: 270px;
 }
 .about-hero-text h1, .hall-hero-text h1{
