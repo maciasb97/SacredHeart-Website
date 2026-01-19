@@ -4,6 +4,9 @@ export function Footer(){
     <a href="https://www.facebook.com/p/Sacred-Heart-Byzantine-Catholic-Church-in-Livonia-MI-100064814883695/" target="_blank">
         <i class="bx bxl-facebook"></i>
     </a>
+    <a href="https://www.instagram.com/sacredheartliv/" target="_blank">
+        <i class="bx bxl-instagram"></i>
+    </a>
     <a href="https://www.youtube.com/@EparchyofParma" target="_blank">
         <i class="bx bxl-youtube"></i>
     </a>
