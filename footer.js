@@ -7,6 +7,9 @@ export function Footer(){
     <a href="https://www.instagram.com/sacredheartliv/" target="_blank">
         <i class="bx bxl-instagram"></i>
     </a>
+    <a href="https://www.instagram.com/allsaintsshrinemi/" target="_blank">
+        <i class="bx bxl-instagram"></i>
+    </a>
     <a href="https://www.youtube.com/@EparchyofParma" target="_blank">
         <i class="bx bxl-youtube"></i>
     </a>
