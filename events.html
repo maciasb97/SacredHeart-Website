@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Upcoming Events - SHBCC</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+<!--Links in header from js file-->
+    <div id="header"></div>
+
+    <!--Shrine Header with Logo Display-->
+    <div class="about-hero">
+        <div class="about-hero-text">
+            <h1>Upcoming Events</h1>
+        </div>
+    </div>
+   
+    
+    <section id="events" class="events">
+        <div class="events-container">
+        <p id="events-loading">Loading events…</p>
+
+        <p id="no-events" hidden>
+            No events scheduled at this time. Please check back soon.
+        </p>
+
+        <div id="events-list"></div>
+        </div>
+
+    </section>
+
+
+    <div id="footer"></div>
+
+    <script type="module" src="/script.js"></script>
+</body>
+</html>
