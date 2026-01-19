@@ -535,6 +535,31 @@ section{
 }
 /*-------------Shrine, About, Hall Pages Structure-------------*/
 
+
+/*-------------Calendar Page Structure-------------*/
+.calendar{
+  background-color: var(--body-color);
+  padding: 5rem 5rem;
+  margin-top: 0rem;
+}
+
+.calendar-container-box{
+  background-color: var(--section1-color);
+}
+
+.calendar-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.calendar-container-mobile{
+  display: none;
+}
+/*-------------Calendar Page Structure-------------*/
+
+
 /*-------------Horizontal/Vertical Tabs & Accordion Tabs-------------*/
 
 .tab {
@@ -838,6 +863,18 @@ section{
     width: 50vw;
   }
   /*-------------Secondary Page--------------*/
+  /*-------------Calendar Page--------------*/
+  .calendar-container{
+    display: none;
+  }
+
+  .calendar-container-mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+  }
+  /*-------------Calendar Page--------------*/
 }
 /*---------------------Responsive Media Queries(Mobile Viewing)---------------------*/
 

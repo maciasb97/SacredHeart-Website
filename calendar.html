@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Calendar - SHBCC</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+<!--Links in header from js file-->
+    <div id="header"></div>
+
+    <!--Shrine Header with Logo Display-->
+    <div class="about-hero">
+        <div class="about-hero-text">
+            <h1>Our Calendar</h1>
+        </div>
+    </div>
+   
+    <section class="calendar">
+        <div class="calendar-container-box">
+            <div class="calendar-container">
+                <iframe src="https://calendar.google.com/calendar/embed?height=800&wkst=1&ctz=America%2FDetroit&showPrint=0&showTitle=0&showCalendars=0&mode=MONTH&src=c2FpbnRzdGVwaGVuYnl6YW50aW5lQGdtYWlsLmNvbQ&color=%237cb342" style="border-width:0" width="1000" height="800" frameborder="0" scrolling="no"></iframe>
+            </div>
+            <div class="calendar-container-mobile">
+                <iframe src="https://calendar.google.com/calendar/embed?height=800&wkst=1&ctz=America%2FDetroit&showPrint=0&showTitle=0&showCalendars=0&mode=AGENDA&src=c2FpbnRzdGVwaGVuYnl6YW50aW5lQGdtYWlsLmNvbQ&color=%237cb342" style="border-width:0" width="800" height="800" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer"></div>
+
+    <script type="module" src="/script.js"></script>
+</body>
+</html>
