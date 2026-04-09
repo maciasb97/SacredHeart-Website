@@ -8,7 +8,6 @@ export function Header(){
 
       <!--Navagation Bar-->
       <nav class= "navbar">
-        <a href = "index.html#home">HOME</a>
         <a href = "about.html">ABOUT</a>
         <a href = "index.html#schedule">SCHEDULE</a>
         <a href = "shrine.html">ALL SAINTS SHRINE</a>
