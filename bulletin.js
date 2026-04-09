@@ -1,4 +1,4 @@
-const API_KEY = "REMOVED";
+const API_KEY = "undefined"; // Replace with your actual API key
 const FOLDER_ID = "1S7tgG0VARIRd_lAcfg5s4E8KWrpcQ-uG";
 
 // Exported so script.js can import and call it only on the bulletins page
