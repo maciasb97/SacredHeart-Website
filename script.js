@@ -7,6 +7,7 @@ import { accordionTabs } from "./accord.js";
 import { bulletinReader } from "./bulletin-reader.js";
 import { renderSaintGroup } from "./saints-loader.js";
 import { flyerReader }  from "./events-list.js";
+import { HeroSlider } from "./heroslider.js";
 
 
 
@@ -14,7 +15,7 @@ document.addEventListener("DOMContentLoaded", async function() {
   
   Header();
   Footer();
-  /*galleryLoader();*/
+  
 
 
   // --- Make the menu toggle work after header loads ---
@@ -30,6 +31,7 @@ document.addEventListener("DOMContentLoaded", async function() {
   initTabs();
   initSections();
   accordionTabs();
+  
   
   //Runs bulletin-reader if page has "schedule" element
   if(document.getElementById("schedule")){
@@ -53,5 +55,6 @@ document.addEventListener("DOMContentLoaded", async function() {
     renderSaintGroup("group-Q-Z", "Q-Z");
   }
 
+  HeroSlider();
   
 });
