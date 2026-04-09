@@ -59,6 +59,19 @@ export function HeroSlider(){
             resetInterval();
         });
     });
+    let touchStartX = 0;
+
+    document.querySelector('.slider').addEventListener('touchstart', e => {
+        touchStartX = e.touches[0].clientX;
+    });
+
+    document.querySelector('.slider').addEventListener('touchend', e => {
+        const diff = touchStartX - e.changedTouches[0].clientX;
+        if (Math.abs(diff) > 50) {
+            diff > 0 ? nextSlide() : prevSlide();
+            resetInterval();
+        }
+    });
     
     // Initialize the slider
     initSlider();

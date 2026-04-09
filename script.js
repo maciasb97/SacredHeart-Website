@@ -1,13 +1,12 @@
 import { Header } from "./header.js";
 import { Footer } from "./footer.js";
-//import { galleryLoader } from "./gallery.js";
 import { initTabs } from "./tabs.js";
 import { initSections } from "./sections.js";
 import { accordionTabs } from "./accord.js";
-import { bulletinReader } from "./bulletin-reader.js";
 import { renderSaintGroup } from "./saints-loader.js";
 import { flyerReader }  from "./events-list.js";
 import { HeroSlider } from "./heroslider.js";
+import { fetchBulletin } from "./bulletin.js";
 
 
 
@@ -27,16 +26,20 @@ document.addEventListener("DOMContentLoaded", async function() {
     navbar.classList.toggle('active');
   };
 
+  //Initialize Tabs, Sections, and Accordion if tabcontent elements are present ---
+  if (document.querySelectorAll('tabcontent')){
+    initTabs();
+    initSections();
+    accordionTabs();
+  }
+
   
-  initTabs();
-  initSections();
-  accordionTabs();
+  
   
   
   //Runs bulletin-reader if page has "schedule" element
-  if(document.getElementById("schedule")){
-    bulletinReader();
-    //flyerReader();
+  if(document.getElementById("bulletin-list")){
+    fetchBulletin();
   }
 
   if(document.getElementById("events")){
@@ -55,6 +58,9 @@ document.addEventListener("DOMContentLoaded", async function() {
     renderSaintGroup("group-Q-Z", "Q-Z");
   }
 
-  HeroSlider();
+  //Runs the hero slider if this page has a "slider" element
+  if (document.querySelector('.slider')) {
+      HeroSlider();
+  }
   
 });
