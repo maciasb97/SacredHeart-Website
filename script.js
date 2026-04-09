@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", async function() {
   };
 
   //Initialize Tabs, Sections, and Accordion if tabcontent elements are present ---
-  if (document.querySelectorAll('tabcontent')){
+  if (document.querySelectorAll('.tabcontent').length > 0){
     initTabs();
     initSections();
     accordionTabs();
