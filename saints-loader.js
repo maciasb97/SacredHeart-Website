@@ -4,15 +4,12 @@ let saintsData = null;
 async function loadSaintsJSON() {
     if (saintsData) return saintsData; 
 
-    // URL to your Relics-list.json in GitHub
-    const url = "https://raw.githubusercontent.com/maciasb97/Sacred-Heart-Website-Data-Files/refs/heads/main/json-files/Relics-list.json";
-
     try {
-        const response = await fetch(url);
+        const response = await fetch('/data/relic-list.json');
         saintsData = await response.json();
         return saintsData;
     } catch (err) {
-        console.error("Error loading Relics-list.json:", err);
+        console.error("Error loading relic-list.json:", err);
     }
 }
 
@@ -25,6 +22,10 @@ export async function renderSaintGroup(containerId, groupName) {
     }
 
     const data = await loadSaintsJSON();
+    if (!data) {
+        container.innerHTML = `<p>Content currently unavailable, please check back later.</p>`;
+        return;
+    }
     if (!data[groupName]) {
         container.innerHTML = `<p>No data found for group "${groupName}".</p>`;
         return;
